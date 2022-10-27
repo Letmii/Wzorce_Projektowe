@@ -66,7 +66,7 @@ namespace WzorzecFasada
 
         public void CountUser()
         {
-            Console.WriteLine($"Aktualna liczba adresow: {userRepository.users.Count}");
+            Console.WriteLine($"Aktualna liczba adresów: {userRepository.users.Count}");
         }
 
         public void CreateUser(string email)

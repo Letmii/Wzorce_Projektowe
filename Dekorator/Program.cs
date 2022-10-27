@@ -71,8 +71,8 @@ namespace ExerciseDecorator
     {
         public GolfEquipment(IExercise exercise) : base(exercise)
         {
-            exercise.AddEquipment("balls");
             exercise.AddEquipment("golf club");
+            exercise.AddEquipment("balls");
         }
         public override void JustDoIt()
         {
